@@ -49,7 +49,7 @@ function BannerSlides() {
 
     return (
         <Box sx={{ maxWidth: "100%", flexGrow: 1 }}>
-            <Paper
+            {/* <Paper
                 square
                 elevation={0}
                 sx={{
@@ -61,7 +61,7 @@ function BannerSlides() {
                 }}
             >
                 <Typography>{images[activeStep].label}</Typography>
-            </Paper>
+            </Paper> */}
             <AutoPlaySwipeableViews
                 axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
                 index={activeStep}
